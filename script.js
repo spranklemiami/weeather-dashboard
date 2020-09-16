@@ -7,7 +7,6 @@ $(document).ready(function () {
   var apiKey = "31452e44d256376a64ad98d95e80af09";
   var historyDiv = $("#search-history-div");
   historyDiv.attr("style", "padding-left: 5%;");
- 
 
   submitEl.on("click", function (event) {
     event.preventDefault();

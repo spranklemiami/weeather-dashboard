@@ -57,4 +57,30 @@ form h4 {
     border: 1px solid black;
     width: 140px;
     height: 255px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#mainInfo {
+    float: right;
+    border: 5px ridge #e3e3e3;
+    width: 805px;
+    margin: 2% 0 0 0;
+}
+
+#mainInfo2 {
+    padding-left: 2%;
+}
+
+#fDay {
+    width: 850px;
+    float: right;
+}
+
+#fDay2 {
+    padding: 5% 0 0 5%;
+}
+ 
+label h3 {
+    margin: 1%;
 }
