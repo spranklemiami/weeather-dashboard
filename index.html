@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+<body>
+   
+    <header>
+        <h1>WEATHER DASHBOARD</h1>
+    </header>
+            
+    <div class="container" id="search-div">
+        <form>
+        <label for=""><h4>Search for a city:</h4></label>
+        <input type="text" id="search-input" />
+        <input type="submit" id="submit-button" />
+        </form>
+        <div id="search-history-div"></div>
+    </div>
+    <div class="container" style="float: right; border: 5px ridge #e3e3e3; width: 805px; margin: 2% 0 0 0;">
+        <div class="row">
+            <div class="container" style="padding-left: 2%;">
+                <h2 id="current-city">Welcome.<span id="icon-span"></span></h2>
+                <ul>
+                    <li id="temperature"></li>
+                    <li id="humidity"></li>
+                    <li id="wind-speed"></li>
+                    <li id="uv-index"></li>
+                </ul>
+            </div>
+        </div>  
+    </div>
+    <div class="container" style="width: 850px; float: right;">
+        <div class="row">
+            <div class="container" style="padding: 5% 0 0 5%;">
+                <label><h3 style="margin: 1%;">5 Day forecast:</h3></label>
+                <div class="fiveDay" style="color: white;background-color: blue;border: 1px solid black; width: 140px;height: 255px; display: inline-block; margin-right: 2%;"></div>
+                <div class="fiveDay" style="color: white;background-color: blue;border: 1px solid black; width: 140px;height: 255px; display: inline-block; margin-right: 2%;"></div>
+                <div class="fiveDay" style="color: white;background-color: blue;border: 1px solid black; width: 140px;height: 255px; display: inline-block; margin-right: 2%;"></div>
+                <div class="fiveDay" style="color: white;background-color: blue;border: 1px solid black; width: 140px;height: 255px; display: inline-block; margin-right: 2%;"></div>
+                <div class="fiveDay" style="color: white;background-color: blue;border: 1px solid black; width: 140px;height: 255px; display: inline-block; margin-right: 2%;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

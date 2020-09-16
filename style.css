@@ -1,0 +1,60 @@
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#search-div {
+    background-color: #e3e3e3;
+    float: left;
+    width: 30%;
+    height: 550px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 2%;
+}
+
+#search-history-div button {
+    margin-top: 10px;
+    height: 60px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 5%;
+}
+
+form h4 {
+    margin: 0;
+}
+
+#search-input {
+    width: 250px;
+    height: 30px;
+}
+
+#submit-button {
+    background-color: #3030ff;
+    color: white;
+    height: 40px;
+}
+.fiveDay {
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    width: 140px;
+    height: 255px;
+}
